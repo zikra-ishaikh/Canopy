@@ -56,9 +56,9 @@ export default function Sidebar({
     };
 
     return (
-        <div className="flex-1 flex flex-col gap-8">
+        <div className="flex-1 flex flex-col gap-5 md:gap-8">
             {/* Brand/Logo */}
-            <header className="flex items-center gap-3 pb-6 border-b border-slate-200">
+            <header className="flex items-center gap-2 md:gap-3 pb-4 md:pb-6 border-b border-slate-200">
                 <div className="w-10 h-10 rounded-full bg-orange-600 flex items-center justify-center text-white text-xl font-bold">C</div>
                 <h1 className="text-2xl font-bold tracking-tight text-slate-950">Canopy Navigator</h1>
             </header>
@@ -106,7 +106,7 @@ export default function Sidebar({
             </section>
 
             {/* 2. Route Options */}
-            <section className="flex-1 flex flex-col gap-4 pt-6 border-t border-slate-200">
+            <section className="flex-1 flex flex-col gap-3 md:gap-4 pt-4 md:pt-6 border-t border-slate-200">
                 <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-500">Route Options</h2>
 
                 {/* Option: Coolest */}

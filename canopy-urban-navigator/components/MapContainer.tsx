@@ -146,7 +146,7 @@ export default function MapContainer({ routeData, activeRoute }: { routeData: an
     }, [routeData, activeRoute]);
 
     return (
-        <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+        <div style={{ width: '100%', height: '100%', position: 'relative' }}>
             <div
                 ref={mapContainer}
                 style={{ position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 }}
