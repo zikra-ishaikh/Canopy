@@ -29,7 +29,8 @@ export default function Sidebar({
         setTimeout(() => setLoadingText("Optimizing for comfort..."), 1600);
 
         try {
-            const response = await fetch('http://localhost:8000/api/route', {
+            const apiBase = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+            const response = await fetch(`${apiBase}/api/route`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ start, end })
