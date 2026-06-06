@@ -153,7 +153,7 @@ export default function MapContainer({ routeData, activeRoute }: { routeData: an
             />
 
             {/* Legend Overlay */}
-            <div className="hidden md:block absolute bottom-10 right-6 bg-white/90 backdrop-blur p-4 rounded-xl shadow-2xl border border-slate-200 z-20">
+            <div className="absolute top-4 right-4 md:top-auto md:bottom-10 md:right-6 bg-white/90 backdrop-blur p-3 md:p-4 rounded-xl shadow-2xl border border-slate-200 z-20">
                 <h4 className="text-[10px] font-black uppercase text-slate-400 mb-3 tracking-widest">Route Comparison</h4>
                 <div className="space-y-3">
                     <div className="flex items-center gap-3">
